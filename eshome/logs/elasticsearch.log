@@ -1,0 +1,314 @@
+[2020-03-31T10:56:56,437][INFO ][o.e.e.NodeEnvironment    ] [] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [31gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T10:56:56,451][INFO ][o.e.e.NodeEnvironment    ] [] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T10:56:56,454][INFO ][o.e.n.Node               ] [] node name [], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T10:56:56,455][INFO ][o.e.n.Node               ] [] version[7.3.2], pid[6505], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T10:56:56,458][INFO ][o.e.n.Node               ] [] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T10:56:56,459][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T10:57:05,365][INFO ][o.e.p.PluginsService     ] [] loaded module [aggs-matrix-stats]
+[2020-03-31T10:57:05,365][INFO ][o.e.p.PluginsService     ] [] loaded module [analysis-common]
+[2020-03-31T10:57:05,366][INFO ][o.e.p.PluginsService     ] [] loaded module [data-frame]
+[2020-03-31T10:57:05,366][INFO ][o.e.p.PluginsService     ] [] loaded module [flattened]
+[2020-03-31T10:57:05,366][INFO ][o.e.p.PluginsService     ] [] loaded module [ingest-common]
+[2020-03-31T10:57:05,366][INFO ][o.e.p.PluginsService     ] [] loaded module [ingest-geoip]
+[2020-03-31T10:57:05,366][INFO ][o.e.p.PluginsService     ] [] loaded module [ingest-user-agent]
+[2020-03-31T10:57:05,367][INFO ][o.e.p.PluginsService     ] [] loaded module [lang-expression]
+[2020-03-31T10:57:05,367][INFO ][o.e.p.PluginsService     ] [] loaded module [lang-mustache]
+[2020-03-31T10:57:05,367][INFO ][o.e.p.PluginsService     ] [] loaded module [lang-painless]
+[2020-03-31T10:57:05,367][INFO ][o.e.p.PluginsService     ] [] loaded module [mapper-extras]
+[2020-03-31T10:57:05,367][INFO ][o.e.p.PluginsService     ] [] loaded module [parent-join]
+[2020-03-31T10:57:05,368][INFO ][o.e.p.PluginsService     ] [] loaded module [percolator]
+[2020-03-31T10:57:05,368][INFO ][o.e.p.PluginsService     ] [] loaded module [rank-eval]
+[2020-03-31T10:57:05,368][INFO ][o.e.p.PluginsService     ] [] loaded module [reindex]
+[2020-03-31T10:57:05,368][INFO ][o.e.p.PluginsService     ] [] loaded module [repository-url]
+[2020-03-31T10:57:05,369][INFO ][o.e.p.PluginsService     ] [] loaded module [transport-netty4]
+[2020-03-31T10:57:05,369][INFO ][o.e.p.PluginsService     ] [] loaded module [vectors]
+[2020-03-31T10:57:05,369][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-ccr]
+[2020-03-31T10:57:05,369][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-core]
+[2020-03-31T10:57:05,369][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-deprecation]
+[2020-03-31T10:57:05,369][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-graph]
+[2020-03-31T10:57:05,370][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-ilm]
+[2020-03-31T10:57:05,370][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-logstash]
+[2020-03-31T10:57:05,370][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-ml]
+[2020-03-31T10:57:05,370][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-monitoring]
+[2020-03-31T10:57:05,370][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-rollup]
+[2020-03-31T10:57:05,371][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-security]
+[2020-03-31T10:57:05,371][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-sql]
+[2020-03-31T10:57:05,371][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-voting-only-node]
+[2020-03-31T10:57:05,371][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-watcher]
+[2020-03-31T10:57:05,372][INFO ][o.e.p.PluginsService     ] [] no plugins loaded
+[2020-03-31T10:57:05,716][INFO ][i.n.u.i.PlatformDependent] [] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-03-31T10:57:09,463][INFO ][o.e.x.s.a.s.FileRolesStore] [] parsed [0] roles from file [/Users/abley/Java/elasticsearch-7.3.2/eshome/config/roles.yml]
+[2020-03-31T10:57:10,033][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [] [controller/6507] [Main.cc@110] controller (64 bit): Version 7.3.2 (Build 265429af874fbe) Copyright (c) 2019 Elasticsearch BV
+[2020-03-31T10:57:10,485][DEBUG][o.e.a.ActionModule       ] [] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2020-03-31T10:57:10,537][INFO ][i.n.u.i.PlatformDependent] [] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-03-31T10:57:10,931][INFO ][o.e.d.DiscoveryModule    ] [] using discovery type [zen] and seed hosts providers [settings]
+[2020-03-31T10:57:12,141][INFO ][o.e.n.Node               ] [] initialized
+[2020-03-31T10:57:12,141][INFO ][o.e.n.Node               ] [] starting ...
+[2020-03-31T10:57:12,320][INFO ][o.e.t.TransportService   ] [] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2020-03-31T10:57:12,348][WARN ][o.e.b.BootstrapChecks    ] [] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-03-31T10:57:12,348][WARN ][o.e.b.BootstrapChecks    ] [] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-03-31T10:57:12,353][INFO ][o.e.c.c.Coordinator      ] [] cluster UUID [fFNSFPExSzazKAnatvBXCQ]
+[2020-03-31T10:57:12,366][INFO ][o.e.c.c.ClusterBootstrapService] [] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-03-31T10:57:12,521][INFO ][o.e.c.s.MasterService    ] [] elected-as-master ([1] nodes joined)[{hBKAABFsT12lMnG2bk3c4A}{JoMf2rbLRa2PzaAeR7XFQA}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 3, version: 19, reason: master node changed {previous [], current [{hBKAABFsT12lMnG2bk3c4A}{JoMf2rbLRa2PzaAeR7XFQA}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20}]}
+[2020-03-31T10:57:12,592][INFO ][o.e.c.s.ClusterApplierService] [] master node changed {previous [], current [{hBKAABFsT12lMnG2bk3c4A}{JoMf2rbLRa2PzaAeR7XFQA}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20}]}, term: 3, version: 19, reason: Publication{term=3, version=19}
+[2020-03-31T10:57:12,635][INFO ][o.e.h.AbstractHttpServerTransport] [] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2020-03-31T10:57:12,636][INFO ][o.e.n.Node               ] [] started
+[2020-03-31T10:57:12,803][INFO ][o.e.l.LicenseService     ] [] license [e872d57f-ba11-4502-8eec-33ed6f2cc63d] mode [basic] - valid
+[2020-03-31T10:57:12,803][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [] Active license is now [BASIC]; Security is disabled
+[2020-03-31T10:57:12,814][INFO ][o.e.g.GatewayService     ] [] recovered [0] indices into cluster_state
+[2020-03-31T10:57:24,876][INFO ][o.e.n.Node               ] [] stopping ...
+[2020-03-31T11:53:06,358][INFO ][o.e.e.NodeEnvironment    ] [] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [30.9gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T11:53:06,362][INFO ][o.e.e.NodeEnvironment    ] [] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T11:53:06,365][INFO ][o.e.n.Node               ] [] node name [], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T11:53:06,365][INFO ][o.e.n.Node               ] [] version[7.3.2], pid[6598], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T11:53:06,365][INFO ][o.e.n.Node               ] [] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T11:53:06,366][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T11:53:06,696][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [main], exiting
+java.lang.NoClassDefFoundError: org/elasticsearch/plugins/ExtendedPluginsClassLoader
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:545) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:314) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:258) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.plugins.ExtendedPluginsClassLoader
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 15 more
+[2020-03-31T13:04:53,509][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [30.9gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T13:04:53,515][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T13:04:53,519][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T13:04:53,520][INFO ][o.e.n.Node               ] [node-1] version[7.3.2], pid[6781], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T13:04:53,521][INFO ][o.e.n.Node               ] [node-1] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T13:04:53,521][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=51429, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T13:04:53,861][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] fatal error in thread [main], exiting
+java.lang.NoClassDefFoundError: org/elasticsearch/plugins/ExtendedPluginsClassLoader
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:545) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:314) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:258) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.plugins.ExtendedPluginsClassLoader
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 15 more
+[2020-03-31T15:55:00,550][INFO ][o.e.e.NodeEnvironment    ] [] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [30.9gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T15:55:00,554][INFO ][o.e.e.NodeEnvironment    ] [] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T15:55:00,557][INFO ][o.e.n.Node               ] [] node name [], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T15:55:00,558][INFO ][o.e.n.Node               ] [] version[7.3.2], pid[7107], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T15:55:00,559][INFO ][o.e.n.Node               ] [] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T15:55:00,559][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T15:55:07,534][INFO ][o.e.p.PluginsService     ] [] loaded module [aggs-matrix-stats]
+[2020-03-31T15:55:07,534][INFO ][o.e.p.PluginsService     ] [] loaded module [analysis-common]
+[2020-03-31T15:55:07,535][INFO ][o.e.p.PluginsService     ] [] loaded module [data-frame]
+[2020-03-31T15:55:07,535][INFO ][o.e.p.PluginsService     ] [] loaded module [flattened]
+[2020-03-31T15:55:07,535][INFO ][o.e.p.PluginsService     ] [] loaded module [ingest-common]
+[2020-03-31T15:55:07,535][INFO ][o.e.p.PluginsService     ] [] loaded module [ingest-geoip]
+[2020-03-31T15:55:07,536][INFO ][o.e.p.PluginsService     ] [] loaded module [ingest-user-agent]
+[2020-03-31T15:55:07,536][INFO ][o.e.p.PluginsService     ] [] loaded module [lang-expression]
+[2020-03-31T15:55:07,536][INFO ][o.e.p.PluginsService     ] [] loaded module [lang-mustache]
+[2020-03-31T15:55:07,536][INFO ][o.e.p.PluginsService     ] [] loaded module [lang-painless]
+[2020-03-31T15:55:07,537][INFO ][o.e.p.PluginsService     ] [] loaded module [mapper-extras]
+[2020-03-31T15:55:07,537][INFO ][o.e.p.PluginsService     ] [] loaded module [parent-join]
+[2020-03-31T15:55:07,537][INFO ][o.e.p.PluginsService     ] [] loaded module [percolator]
+[2020-03-31T15:55:07,537][INFO ][o.e.p.PluginsService     ] [] loaded module [rank-eval]
+[2020-03-31T15:55:07,537][INFO ][o.e.p.PluginsService     ] [] loaded module [reindex]
+[2020-03-31T15:55:07,538][INFO ][o.e.p.PluginsService     ] [] loaded module [repository-url]
+[2020-03-31T15:55:07,538][INFO ][o.e.p.PluginsService     ] [] loaded module [transport-netty4]
+[2020-03-31T15:55:07,538][INFO ][o.e.p.PluginsService     ] [] loaded module [vectors]
+[2020-03-31T15:55:07,538][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-ccr]
+[2020-03-31T15:55:07,539][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-core]
+[2020-03-31T15:55:07,539][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-deprecation]
+[2020-03-31T15:55:07,539][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-graph]
+[2020-03-31T15:55:07,539][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-ilm]
+[2020-03-31T15:55:07,539][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-logstash]
+[2020-03-31T15:55:07,539][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-ml]
+[2020-03-31T15:55:07,540][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-monitoring]
+[2020-03-31T15:55:07,540][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-rollup]
+[2020-03-31T15:55:07,540][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-security]
+[2020-03-31T15:55:07,540][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-sql]
+[2020-03-31T15:55:07,540][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-voting-only-node]
+[2020-03-31T15:55:07,541][INFO ][o.e.p.PluginsService     ] [] loaded module [x-pack-watcher]
+[2020-03-31T15:55:07,541][INFO ][o.e.p.PluginsService     ] [] no plugins loaded
+[2020-03-31T15:55:07,811][INFO ][i.n.u.i.PlatformDependent] [] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-03-31T15:55:10,701][INFO ][o.e.x.s.a.s.FileRolesStore] [] parsed [0] roles from file [/Users/abley/Java/elasticsearch-7.3.2/eshome/config/roles.yml]
+[2020-03-31T15:55:11,312][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [] [controller/7109] [Main.cc@110] controller (64 bit): Version 7.3.2 (Build 265429af874fbe) Copyright (c) 2019 Elasticsearch BV
+[2020-03-31T15:55:11,729][DEBUG][o.e.a.ActionModule       ] [] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2020-03-31T15:55:11,782][INFO ][i.n.u.i.PlatformDependent] [] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-03-31T15:55:12,060][INFO ][o.e.d.DiscoveryModule    ] [] using discovery type [zen] and seed hosts providers [settings]
+[2020-03-31T15:55:12,797][INFO ][o.e.n.Node               ] [] initialized
+[2020-03-31T15:55:12,797][INFO ][o.e.n.Node               ] [] starting ...
+[2020-03-31T15:55:12,952][INFO ][o.e.t.TransportService   ] [] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2020-03-31T15:55:12,973][WARN ][o.e.b.BootstrapChecks    ] [] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-03-31T15:55:12,973][WARN ][o.e.b.BootstrapChecks    ] [] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-03-31T15:55:12,978][INFO ][o.e.c.c.Coordinator      ] [] cluster UUID [fFNSFPExSzazKAnatvBXCQ]
+[2020-03-31T15:55:12,988][INFO ][o.e.c.c.ClusterBootstrapService] [] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-03-31T15:55:13,097][INFO ][o.e.c.s.MasterService    ] [] elected-as-master ([1] nodes joined)[{hBKAABFsT12lMnG2bk3c4A}{GxamU_01RNisgjgxo3LLMg}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 4, version: 22, reason: master node changed {previous [], current [{hBKAABFsT12lMnG2bk3c4A}{GxamU_01RNisgjgxo3LLMg}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20}]}
+[2020-03-31T15:55:13,166][INFO ][o.e.c.s.ClusterApplierService] [] master node changed {previous [], current [{hBKAABFsT12lMnG2bk3c4A}{GxamU_01RNisgjgxo3LLMg}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20}]}, term: 4, version: 22, reason: Publication{term=4, version=22}
+[2020-03-31T15:55:13,202][INFO ][o.e.h.AbstractHttpServerTransport] [] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2020-03-31T15:55:13,203][INFO ][o.e.n.Node               ] [] started
+[2020-03-31T15:55:13,400][INFO ][o.e.l.LicenseService     ] [] license [e872d57f-ba11-4502-8eec-33ed6f2cc63d] mode [basic] - valid
+[2020-03-31T15:55:13,401][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [] Active license is now [BASIC]; Security is disabled
+[2020-03-31T15:55:13,412][INFO ][o.e.g.GatewayService     ] [] recovered [0] indices into cluster_state
+[2020-03-31T15:55:43,198][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.9gb[13.2%], replicas will not be assigned to this node
+[2020-03-31T15:56:13,202][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.9gb[13.2%], replicas will not be assigned to this node
+[2020-03-31T15:56:43,207][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.9gb[13.2%], replicas will not be assigned to this node
+[2020-03-31T15:57:13,212][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.9gb[13.2%], replicas will not be assigned to this node
+[2020-03-31T15:57:43,219][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.9gb[13.2%], replicas will not be assigned to this node
+[2020-03-31T15:58:13,223][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.9gb[13.2%], replicas will not be assigned to this node
+[2020-03-31T15:58:43,226][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.5gb[13%], replicas will not be assigned to this node
+[2020-03-31T15:59:13,233][INFO ][o.e.c.r.a.DiskThresholdMonitor] [] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 30.5gb[13%], replicas will not be assigned to this node
+[2020-03-31T15:59:34,293][INFO ][o.e.n.Node               ] [] stopping ...
+[2020-03-31T16:19:57,135][INFO ][o.e.e.NodeEnvironment    ] [] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [31.5gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T16:19:57,140][INFO ][o.e.e.NodeEnvironment    ] [] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T16:19:57,144][INFO ][o.e.n.Node               ] [] node name [], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T16:19:57,144][INFO ][o.e.n.Node               ] [] version[7.3.2], pid[7181], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T16:19:57,145][INFO ][o.e.n.Node               ] [] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T16:19:57,145][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T16:19:57,544][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [main], exiting
+java.lang.NoClassDefFoundError: org/elasticsearch/plugins/ExtendedPluginsClassLoader
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:545) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:314) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:258) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.plugins.ExtendedPluginsClassLoader
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 15 more
+[2020-03-31T16:20:49,816][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [31.5gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T16:20:49,822][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T16:20:49,824][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T16:20:49,825][INFO ][o.e.n.Node               ] [node-1] version[7.3.2], pid[7191], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T16:20:49,825][INFO ][o.e.n.Node               ] [node-1] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T16:20:49,825][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T16:20:50,283][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [node-1] fatal error in thread [main], exiting
+java.lang.NoClassDefFoundError: org/elasticsearch/plugins/ExtendedPluginsClassLoader
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:545) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:314) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:258) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.3.2-SNAPSHOT.jar:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.plugins.ExtendedPluginsClassLoader
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 15 more
+[2020-03-31T16:38:28,389][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [31.5gb], net total_space [233.4gb], types [apfs]
+[2020-03-31T16:38:28,394][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [4gb], compressed ordinary object pointers [true]
+[2020-03-31T16:38:28,396][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [hBKAABFsT12lMnG2bk3c4A], cluster name [elasticsearch]
+[2020-03-31T16:38:28,397][INFO ][o.e.n.Node               ] [node-1] version[7.3.2], pid[7224], build[unknown/unknown/Unknown/Unknown], OS[Mac OS X/10.15.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-03-31T16:38:28,397][INFO ][o.e.n.Node               ] [node-1] JVM home [/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home]
+[2020-03-31T16:38:28,397][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=/Users/abley/Java/elasticsearch-7.3.2/eshome/config, -Des.path.home=/Users/abley/Java/elasticsearch-7.3.2/eshome, -Des.path.plugins=/Users/abley/Java/elasticsearch-7.3.2/eshome/plugins, -Djava.security.policy=/Users/abley/Java/elasticsearch-7.3.2/eshome/config/elasticsearch.policy, -Dlog4j2.disable.jmx=true, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=en, -Duser.variant]
+[2020-03-31T16:38:35,095][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2020-03-31T16:38:35,095][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [analysis-common]
+[2020-03-31T16:38:35,095][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [data-frame]
+[2020-03-31T16:38:35,096][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [flattened]
+[2020-03-31T16:38:35,096][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2020-03-31T16:38:35,096][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-geoip]
+[2020-03-31T16:38:35,096][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-user-agent]
+[2020-03-31T16:38:35,096][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2020-03-31T16:38:35,097][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2020-03-31T16:38:35,097][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2020-03-31T16:38:35,097][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-extras]
+[2020-03-31T16:38:35,097][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2020-03-31T16:38:35,097][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2020-03-31T16:38:35,097][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [rank-eval]
+[2020-03-31T16:38:35,098][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2020-03-31T16:38:35,098][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-url]
+[2020-03-31T16:38:35,098][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2020-03-31T16:38:35,098][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [vectors]
+[2020-03-31T16:38:35,099][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ccr]
+[2020-03-31T16:38:35,099][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-core]
+[2020-03-31T16:38:35,099][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-deprecation]
+[2020-03-31T16:38:35,100][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-graph]
+[2020-03-31T16:38:35,100][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ilm]
+[2020-03-31T16:38:35,100][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-logstash]
+[2020-03-31T16:38:35,100][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ml]
+[2020-03-31T16:38:35,100][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-monitoring]
+[2020-03-31T16:38:35,101][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-rollup]
+[2020-03-31T16:38:35,101][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-security]
+[2020-03-31T16:38:35,101][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-sql]
+[2020-03-31T16:38:35,101][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-voting-only-node]
+[2020-03-31T16:38:35,101][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-watcher]
+[2020-03-31T16:38:35,102][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2020-03-31T16:38:35,372][INFO ][i.n.u.i.PlatformDependent] [node-1] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-03-31T16:38:38,216][INFO ][o.e.x.s.a.s.FileRolesStore] [node-1] parsed [0] roles from file [/Users/abley/Java/elasticsearch-7.3.2/eshome/config/roles.yml]
+[2020-03-31T16:38:38,762][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [node-1] [controller/7226] [Main.cc@110] controller (64 bit): Version 7.3.2 (Build 265429af874fbe) Copyright (c) 2019 Elasticsearch BV
+[2020-03-31T16:38:39,187][DEBUG][o.e.a.ActionModule       ] [node-1] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2020-03-31T16:38:39,240][INFO ][i.n.u.i.PlatformDependent] [node-1] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-03-31T16:38:39,543][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen] and seed hosts providers [settings]
+[2020-03-31T16:38:40,382][INFO ][o.e.n.Node               ] [node-1] initialized
+[2020-03-31T16:38:40,383][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2020-03-31T16:38:40,539][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2020-03-31T16:38:40,563][WARN ][o.e.b.BootstrapChecks    ] [node-1] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-03-31T16:38:40,563][WARN ][o.e.b.BootstrapChecks    ] [node-1] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-03-31T16:38:40,568][INFO ][o.e.c.c.Coordinator      ] [node-1] cluster UUID [fFNSFPExSzazKAnatvBXCQ]
+[2020-03-31T16:38:40,582][INFO ][o.e.c.c.ClusterBootstrapService] [node-1] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-03-31T16:38:40,688][INFO ][o.e.c.s.MasterService    ] [node-1] elected-as-master ([1] nodes joined)[{node-1}{hBKAABFsT12lMnG2bk3c4A}{Bw_HJJFeQuG-MD_VVZCM2g}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 5, version: 25, reason: master node changed {previous [], current [{node-1}{hBKAABFsT12lMnG2bk3c4A}{Bw_HJJFeQuG-MD_VVZCM2g}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20}]}
+[2020-03-31T16:38:40,758][INFO ][o.e.c.s.ClusterApplierService] [node-1] master node changed {previous [], current [{node-1}{hBKAABFsT12lMnG2bk3c4A}{Bw_HJJFeQuG-MD_VVZCM2g}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20}]}, term: 5, version: 25, reason: Publication{term=5, version=25}
+[2020-03-31T16:38:40,796][INFO ][o.e.h.AbstractHttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2020-03-31T16:38:40,797][INFO ][o.e.n.Node               ] [node-1] started
+[2020-03-31T16:38:40,983][INFO ][o.e.l.LicenseService     ] [node-1] license [e872d57f-ba11-4502-8eec-33ed6f2cc63d] mode [basic] - valid
+[2020-03-31T16:38:40,984][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [node-1] Active license is now [BASIC]; Security is disabled
+[2020-03-31T16:38:40,993][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2020-03-31T16:39:10,800][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:39:40,808][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:40:10,814][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:40:40,821][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:41:10,831][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:41:40,838][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:42:10,844][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:42:40,852][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:43:10,856][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:43:40,867][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:44:10,880][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:44:40,889][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:45:10,894][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:45:40,896][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:46:10,901][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:46:40,914][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:47:10,922][INFO ][o.e.c.r.a.DiskThresholdMonitor] [node-1] low disk watermark [85%] exceeded on [hBKAABFsT12lMnG2bk3c4A][node-1][/Users/abley/Java/elasticsearch-7.3.2/eshome/data/nodes/0] free: 31.5gb[13.5%], replicas will not be assigned to this node
+[2020-03-31T16:47:19,660][INFO ][o.e.n.Node               ] [node-1] stopping ...
